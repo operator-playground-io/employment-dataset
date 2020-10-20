@@ -13,7 +13,7 @@
   "commands": [
     {
       "description": "Get Dataset",
-      "exec": "cd /home/student/projects && mkdir employment_dataset && cd covid_dataset  && git clone https://github.com/datasets/employment-us"
+      "exec": "cd /home/student/projects && mkdir employment_dataset && cd employment_dataset  && git clone https://github.com/datasets/employment-us"
     }
   ],
   "display": [
