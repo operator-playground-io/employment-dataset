@@ -1,0 +1,21 @@
+{
+  "title": "Employment Dataset",
+  "description": "US Employment and Unemployment rates since 1940.",
+  "logo": "_images/dataset.png",
+  "enabled": true,
+  "language": [
+    "Dataset"
+  ],
+  "document": "data-logging-stack",
+  "stack_id": "employment_dataset",
+  "type": "dataset",
+  "categories": [
+    "Employment"
+  ],
+  "has_dataset": true,
+  "has_api": false,
+  "git_url": "https://github.com/operator-playground-io/employment-dataset.git",
+  "git_commit": "",
+  "installTime": "2 minutes",
+  "isStacksSaved": true
+}
