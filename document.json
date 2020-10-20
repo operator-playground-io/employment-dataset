@@ -1,0 +1,38 @@
+{
+  "name": "Employment Dataset",
+  "description": "Dataset for Employment",
+  "logo": "_images/dataset.png",
+  "has_supporting_content": false,
+  "stack_id": "employment_dataset",
+  "type": "Dataset",
+  "categories": [
+    "Employment"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [
+    {
+      "description": "Get Dataset",
+      "exec": "cd /home/student/projects && mkdir employment_dataset && cd covid_dataset  && git clone https://github.com/datasets/employment-us"
+    }
+  ],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "meta": {
+    "Install time": [
+      "2 minutes"
+    ],
+    "Language": [
+      "Dataset"
+    ],
+    "categories": [
+      "Employment"
+    ]
+  },
+  "isDocumentSaved": true
+}
