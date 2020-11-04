@@ -10,6 +10,9 @@
   ],
   "platform": "Kubernetes",
   "cover": "cover.md",
+  "deployment_information": {
+     "Dataset": "/home/student/projects/employment_dataset"
+  },
   "commands": [
     {
       "description": "Get Dataset",
