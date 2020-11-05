@@ -1,12 +1,7 @@
 ---
-title: Employment dataset Tutorial
-description: This tutorial explains how to use Employment Dataset
+title: Sample Application using Employment Dataset
+description: This tutorial explains how to use Employment Dataset in a sample application
 ---
-
-### Introduction
-
-The dataset contains the US Employment and Unemployment rates since 1940 from USA Bureau of Labor Statistics.
-
 
 ### Example Application : US Employment rates application (Java)
 
