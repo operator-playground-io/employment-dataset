@@ -2,7 +2,7 @@
   "name": "Employment Dataset",
   "description": "Dataset for Employment",
   "logo": "_images/dataset.png",
-  "has_supporting_content": true,
+  "has_supporting_content": false,
   "stack_id": "employment_dataset",
   "type": "Dataset",
   "categories": [
@@ -13,9 +13,6 @@
   "deployment_information": {
      "Dataset": "/home/student/projects/employment_dataset"
   },
-  "tag": [
-    "CSV"
-  ],
   "commands": [
     {
       "description": "Get Dataset",
@@ -35,6 +32,9 @@
     ],
     "Type": [
       "Dataset"
+    ],
+    "Tag": [
+      "CSV"
     ],
     "categories": [
       "Employment"
