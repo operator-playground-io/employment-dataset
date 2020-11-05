@@ -1,0 +1,16 @@
+{
+   "name":"Employment Dataset Tutorial",
+   "appLayout":"accordion",
+   "appTheme":"g90",
+   "footer":"footer.md",
+   "tutorials":[
+      {
+         "description":"US Employment and Unemployment rates since 1940.",
+         "duration":"30 min",
+         "tutorial_name":"Employment-dataset-tutorial.md",
+         "title":"Employment Dataset"
+      }
+   ],
+   "usefulLinks":[
+   ]
+}

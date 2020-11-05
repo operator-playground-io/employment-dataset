@@ -2,7 +2,7 @@
   "name": "Employment Dataset",
   "description": "Dataset for Employment",
   "logo": "_images/dataset.png",
-  "has_supporting_content": false,
+  "has_supporting_content": true,
   "stack_id": "employment_dataset",
   "type": "Dataset",
   "categories": [
