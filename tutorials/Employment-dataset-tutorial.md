@@ -27,7 +27,7 @@ This application consists of a Java backend and a React frontend that is display
 
 It follows a simple modular and MVC pattern. There are 2 folders that are of our interest:
 - k8s :  This contains all the deployment and service yaml for the application. This defines the deployment and exposure of our application.
-- backend: This contains all the backend code made using Java Spring. The frontend build in React is included in the backend.
+- backend: This contains all the backend code made using Java Spring. The frontend built in React is included in the backend.
 
 ### Try the example
 
@@ -58,7 +58,6 @@ Go to Developer Dashboard tab, it will provide you with the IDE along with the i
 
 k8s folder contains all the manifest files and defines the deployment strategy for the application.
 One can execute them using :
-
 ```execute
 kubectl apply -f k8s/
 ```
@@ -66,26 +65,24 @@ kubectl apply -f k8s/
 In this example , we use `Skaffold` which simplifies local development. You can deploy the application is DEV mode which keeps watching for the files changes and on any change, triggers the entire deployment process automatically without the user having to run and manage it manually.
 
 Navigate to the example:
-
 ```execute
 cd /home/student/projects/edge-java-react-dataset-deploy
 ```
 
+Deploy the changes in dev mode:
 ```execute
 skaffold dev
 ```
 
 On exiting the command, Skaffold will automatically destroy all the resources it created with above command.
 
-
 Also, you can use the `skaffold run` to deploy the changes onto Kubernetes as a normal mode. In this mode, the resources created remains unless the user deletes them.
 
 ### Clean up the Kubernetes resources (Example application)
 
 You can delete all the application resources created by executing the following command:
-
 ```execute
-kubectl delete -f k8s/
+cd /home/student/projects/edge-java-react-dataset-deploy && kubectl delete -f k8s/
 ```
 
 
