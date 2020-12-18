@@ -36,9 +36,24 @@ Copy the dataset into application folder
 cp -R employment_dataset edge-java-react-dataset-deploy/backend
 ```
 
-Install and start the application using skaffold tool
+Navigate to the example:
 ```execute
-cd /home/student/projects/edge-java-react-dataset-deploy && skaffold config set default-repo localhost:5000 && skaffold run
+cd /home/student/projects/edge-java-react-dataset-deploy
+```
+
+Setup skaffold default repository to the local one:
+```execute
+skaffold config set default-repo localhost:5000
+```
+
+Install and start the sample. To stop and remove the application you will need to follow the steps from **Clean up the Kubernetes resources**.
+```execute
+skaffold run
+```
+Alternatively you can use this command to install the sample, watch for code changes and re-deploy the application automatically.
+On exiting the command, Skaffold will automatically stop and delete the sample application. 
+```execute
+skaffold dev
 ```
 
 ### Access the example application
@@ -77,7 +92,7 @@ Also, you can use the `skaffold run` to deploy the changes onto Kubernetes as a 
 
 You can delete all the application resources created by executing the following command:
 ```execute
-cd /home/student/projects/edge-java-react-dataset-deploy && kubectl delete -f k8s/
+skaffold delete
 ```
 
 
