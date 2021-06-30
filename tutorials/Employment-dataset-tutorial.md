@@ -28,17 +28,17 @@ It follows a simple modular and MVC pattern. There are 2 folders that are of our
 
 Get the application code
 ```execute
-cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-java-react-dataset-deploy.git
+cd /home/student/projects && git clone https://github.com/operator-playground-io/employment-dataset-sample.git
 ```
 
 Copy the dataset into application folder
 ```execute
-cp -R employment_dataset edge-java-react-dataset-deploy/backend
+cp -R employment_dataset employment-dataset-sample/backend
 ```
 
 Navigate to the example:
 ```execute
-cd /home/student/projects/edge-java-react-dataset-deploy
+cd /home/student/projects/employment-dataset-sample
 ```
 
 Setup skaffold default repository to the local one:
@@ -76,7 +76,7 @@ In this example , we use `Skaffold` which simplifies local development. You can 
 
 Navigate to the example:
 ```execute
-cd /home/student/projects/edge-java-react-dataset-deploy
+cd /home/student/projects/employment-dataset-sample
 ```
 
 Deploy the changes in dev mode:
